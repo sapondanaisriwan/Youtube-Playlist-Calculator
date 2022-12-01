@@ -1,0 +1,639 @@
+{
+    "twoColumnBrowseResultsRenderer": {
+        "tabs": [
+            {
+                "tabRenderer": {
+                    "selected": true,
+                    "content": {
+                        "sectionListRenderer": {
+                            "contents": [
+                                {
+                                    "itemSectionRenderer": {
+                                        "contents": [
+                                            {
+                                                "playlistVideoListRenderer": {
+                                                    "contents": [
+                                                        {
+                                                            "playlistVideoRenderer": {
+                                                                "videoId": "PnSWVlbXqjE",
+                                                                "thumbnail": {
+                                                                    "thumbnails": [
+                                                                        {
+                                                                            "url": "https://i.ytimg.com/vi/PnSWVlbXqjE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC5SlJlnkow7bGyK7HXNUPmCnY_Dw",
+                                                                            "width": 168,
+                                                                            "height": 94
+                                                                        },
+                                                                        {
+                                                                            "url": "https://i.ytimg.com/vi/PnSWVlbXqjE/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAN27yQldN1tafMALgYnTuOs8oGYw",
+                                                                            "width": 196,
+                                                                            "height": 110
+                                                                        },
+                                                                        {
+                                                                            "url": "https://i.ytimg.com/vi/PnSWVlbXqjE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDl1Ol54Fq5gpSn_UdUEM7PMzf3xg",
+                                                                            "width": 246,
+                                                                            "height": 138
+                                                                        },
+                                                                        {
+                                                                            "url": "https://i.ytimg.com/vi/PnSWVlbXqjE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmOb6L3-h2uqosFGgaj9Cxn06HTA",
+                                                                            "width": 336,
+                                                                            "height": 188
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "title": {
+                                                                    "runs": [
+                                                                        {
+                                                                            "text": "食虫植物 | カシ・オトハ 【歌ってみた】"
+                                                                        }
+                                                                    ],
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "食虫植物 | カシ・オトハ 【歌ってみた】 by カシ・オトハ / Kashi Otoha 2 months ago 2 minutes, 39 seconds 4,487 views"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "index": {
+                                                                    "simpleText": "1"
+                                                                },
+                                                                "shortBylineText": {
+                                                                    "runs": [
+                                                                        {
+                                                                            "text": "カシ・オトハ / Kashi Otoha",
+                                                                            "navigationEndpoint": {
+                                                                                "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                "commandMetadata": {
+                                                                                    "webCommandMetadata": {
+                                                                                        "url": "/channel/UCYcnLc0n1ryBDZeGWQTVJ_g",
+                                                                                        "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                                                                        "rootVe": 3611,
+                                                                                        "apiUrl": "/youtubei/v1/browse"
+                                                                                    }
+                                                                                },
+                                                                                "browseEndpoint": {
+                                                                                    "browseId": "UCYcnLc0n1ryBDZeGWQTVJ_g",
+                                                                                    "canonicalBaseUrl": "/channel/UCYcnLc0n1ryBDZeGWQTVJ_g"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "lengthText": {
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "2 minutes, 39 seconds"
+                                                                        }
+                                                                    },
+                                                                    "simpleText": "2:39"
+                                                                },
+                                                                "navigationEndpoint": {
+                                                                    "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELjIKcGxwcF92aWRlb1okVkxQTGQtbVhJOUNKbFNSMXlOMnh6aW4yS1lxZS1EdDdJTm8wmgEDEPos",
+                                                                    "commandMetadata": {
+                                                                        "webCommandMetadata": {
+                                                                            "url": "/watch?v=PnSWVlbXqjE&list=PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0&index=1",
+                                                                            "webPageType": "WEB_PAGE_TYPE_WATCH",
+                                                                            "rootVe": 3832
+                                                                        }
+                                                                    },
+                                                                    "watchEndpoint": {
+                                                                        "videoId": "PnSWVlbXqjE",
+                                                                        "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                        "index": 0,
+                                                                        "params": "OAI%3D",
+                                                                        "loggingContext": {
+                                                                            "vssLoggingContext": {
+                                                                                "serializedContextData": "GiJQTGQtbVhJOUNKbFNSMXlOMnh6aW4yS1lxZS1EdDdJTm8w"
+                                                                            }
+                                                                        },
+                                                                        "watchEndpointSupportedOnesieConfig": {
+                                                                            "html5PlaybackOnesieConfig": {
+                                                                                "commonConfig": {
+                                                                                    "url": "https://rr1---sn-w5nuxa-jxpz.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&ofpcc=1&msp=1&odepv=1&id=3e74965656d7aa31&ip=2403%3A6200%3A8853%3A55e3%3Acc01%3A4a1f%3A6dc2%3Afec4&initcwndbps=1073750&mt=1669910270&oweuc=&pxtags=Cg4KAnR4EggyNDQxMjY3Ng&rxtags=Cg4KAnR4EggyNDQxMjY3Ng%2CCg4KAnR4EggyNDQxMjY3Nw%2CCg4KAnR4EggyNDQxMjY3OA%2CCg4KAnR4EggyNDQxMjY3OQ%2CCg4KAnR4EggyNDQxMjY4MA%2CCg4KAnR4EggyNDQxMjY4MQ%2CCg4KAnR4EggyNDQxMjY4Mg"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "setVideoId": "56B44F6D10557CC6",
+                                                                "lengthSeconds": "159",
+                                                                "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                "isPlayable": true,
+                                                                "menu": {
+                                                                    "menuRenderer": {
+                                                                        "items": [
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Add to queue"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "ADD_TO_QUEUE_TAIL"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CEEQ_pgEGAYiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true
+                                                                                            }
+                                                                                        },
+                                                                                        "signalServiceEndpoint": {
+                                                                                            "signal": "CLIENT_SIGNAL",
+                                                                                            "actions": [
+                                                                                                {
+                                                                                                    "clickTrackingParams": "CEEQ_pgEGAYiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                                                    "addToPlaylistCommand": {
+                                                                                                        "openMiniplayer": true,
+                                                                                                        "videoId": "PnSWVlbXqjE",
+                                                                                                        "listType": "PLAYLIST_EDIT_LIST_TYPE_QUEUE",
+                                                                                                        "onCreateListCommand": {
+                                                                                                            "clickTrackingParams": "CEEQ_pgEGAYiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                                                            "commandMetadata": {
+                                                                                                                "webCommandMetadata": {
+                                                                                                                    "sendPost": true,
+                                                                                                                    "apiUrl": "/youtubei/v1/playlist/create"
+                                                                                                                }
+                                                                                                            },
+                                                                                                            "createPlaylistServiceEndpoint": {
+                                                                                                                "videoIds": [
+                                                                                                                    "PnSWVlbXqjE"
+                                                                                                                ],
+                                                                                                                "params": "CAQ%3D"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "videoIds": [
+                                                                                                            "PnSWVlbXqjE"
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CEEQ_pgEGAYiEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Save to Watch later"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "WATCH_LATER"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true,
+                                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                                            }
+                                                                                        },
+                                                                                        "playlistEditEndpoint": {
+                                                                                            "playlistId": "WL",
+                                                                                            "actions": [
+                                                                                                {
+                                                                                                    "addedVideoId": "PnSWVlbXqjE",
+                                                                                                    "action": "ACTION_ADD_VIDEO",
+                                                                                                    "setVideoId": "56B44F6D10557CC6"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg=="
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Save to playlist"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "PLAYLIST_ADD"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CEAQlKwJGAgiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true,
+                                                                                                "apiUrl": "/youtubei/v1/playlist/get_add_to_playlist"
+                                                                                            }
+                                                                                        },
+                                                                                        "addToPlaylistServiceEndpoint": {
+                                                                                            "videoId": "PnSWVlbXqjE"
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CEAQlKwJGAgiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                                    "hasSeparator": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Remove from "
+                                                                                            },
+                                                                                            {
+                                                                                                "text": "Kashi Otoha(Cover)"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "DELETE"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true,
+                                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                                            }
+                                                                                        },
+                                                                                        "playlistEditEndpoint": {
+                                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                                            "actions": [
+                                                                                                {
+                                                                                                    "setVideoId": "56B44F6D10557CC6",
+                                                                                                    "action": "ACTION_REMOVE_VIDEO"
+                                                                                                }
+                                                                                            ],
+                                                                                            "params": "CAFAAQ%3D%3D",
+                                                                                            "clientActions": [
+                                                                                                {
+                                                                                                    "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                                    "playlistRemoveVideosAction": {
+                                                                                                        "setVideoIds": [
+                                                                                                            "56B44F6D10557CC6"
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg=="
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Move to top"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "VERTICAL_ALIGN_TOP"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true,
+                                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                                            }
+                                                                                        },
+                                                                                        "playlistEditEndpoint": {
+                                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                                            "actions": [
+                                                                                                {
+                                                                                                    "setVideoId": "56B44F6D10557CC6",
+                                                                                                    "action": "ACTION_MOVE_VIDEO_AFTER"
+                                                                                                }
+                                                                                            ],
+                                                                                            "params": "CAFAAQ%3D%3D"
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg=="
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Move to bottom"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "VERTICAL_ALIGN_BOTTOM"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true,
+                                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                                            }
+                                                                                        },
+                                                                                        "playlistEditEndpoint": {
+                                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                                            "actions": [
+                                                                                                {
+                                                                                                    "setVideoId": "56B44F6D10557CC6",
+                                                                                                    "action": "ACTION_MOVE_VIDEO_BEFORE"
+                                                                                                }
+                                                                                            ],
+                                                                                            "params": "CAFAAQ%3D%3D"
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg=="
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "menuServiceItemRenderer": {
+                                                                                    "text": {
+                                                                                        "runs": [
+                                                                                            {
+                                                                                                "text": "Set as playlist thumbnail"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "icon": {
+                                                                                        "iconType": "IMAGE"
+                                                                                    },
+                                                                                    "serviceEndpoint": {
+                                                                                        "clickTrackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                                        "commandMetadata": {
+                                                                                            "webCommandMetadata": {
+                                                                                                "sendPost": true,
+                                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                                            }
+                                                                                        },
+                                                                                        "playlistEditEndpoint": {
+                                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                                            "actions": [
+                                                                                                {
+                                                                                                    "action": "ACTION_SET_PLAYLIST_THUMBNAIL",
+                                                                                                    "thumbnailVideoId": "PnSWVlbXqjE",
+                                                                                                    "setVideoId": "56B44F6D10557CC6"
+                                                                                                }
+                                                                                            ],
+                                                                                            "params": "CAFAAQ%3D%3D"
+                                                                                        }
+                                                                                    },
+                                                                                    "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg=="
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "trackingParams": "CD8QxjQYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                                        "accessibility": {
+                                                                            "accessibilityData": {
+                                                                                "label": "Action menu"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "thumbnailOverlays": [
+                                                                    {
+                                                                        "thumbnailOverlayTimeStatusRenderer": {
+                                                                            "text": {
+                                                                                "accessibility": {
+                                                                                    "accessibilityData": {
+                                                                                        "label": "2 minutes, 39 seconds"
+                                                                                    }
+                                                                                },
+                                                                                "simpleText": "2:39"
+                                                                            },
+                                                                            "style": "DEFAULT"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "thumbnailOverlayNowPlayingRenderer": {
+                                                                            "text": {
+                                                                                "runs": [
+                                                                                    {
+                                                                                        "text": "Now playing"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "videoInfo": {
+                                                                    "runs": [
+                                                                        {
+                                                                            "text": "4.4K views"
+                                                                        },
+                                                                        {
+                                                                            "text": " • "
+                                                                        },
+                                                                        {
+                                                                            "text": "2 months ago"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                    "isEditable": true,
+                                                    "canReorder": true,
+                                                    "trackingParams": "CDgQ7zsYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                    "onReorderEndpoint": {
+                                                        "clickTrackingParams": "CDgQ7zsYACITCMaolNLl2PsCFYMlYAodWP0ELg==",
+                                                        "commandMetadata": {
+                                                            "webCommandMetadata": {
+                                                                "sendPost": true,
+                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                            }
+                                                        },
+                                                        "playlistEditEndpoint": {
+                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                            "actions": [
+                                                                {
+                                                                    "action": "ACTION_MOVE_VIDEO_AFTER"
+                                                                }
+                                                            ],
+                                                            "params": "CAFAAQ%3D%3D"
+                                                        }
+                                                    },
+                                                    "sortFilterMenu": {
+                                                        "sortFilterSubMenuRenderer": {
+                                                            "subMenuItems": [
+                                                                {
+                                                                    "title": "Date added (newest)",
+                                                                    "selected": false,
+                                                                    "serviceEndpoint": {
+                                                                        "clickTrackingParams": "CD4Q48AHGAAiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                        "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                                "sendPost": true,
+                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                            }
+                                                                        },
+                                                                        "playlistEditEndpoint": {
+                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                            "actions": [
+                                                                                {
+                                                                                    "action": "ACTION_SET_PLAYLIST_VIDEO_ORDER",
+                                                                                    "playlistVideoOrder": 1
+                                                                                }
+                                                                            ],
+                                                                            "params": "CAFAAQ%3D%3D"
+                                                                        }
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "Date added (newest)"
+                                                                        }
+                                                                    },
+                                                                    "trackingParams": "CD4Q48AHGAAiEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                                                                },
+                                                                {
+                                                                    "title": "Date added (oldest)",
+                                                                    "selected": false,
+                                                                    "serviceEndpoint": {
+                                                                        "clickTrackingParams": "CD0Q48AHGAEiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                        "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                                "sendPost": true,
+                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                            }
+                                                                        },
+                                                                        "playlistEditEndpoint": {
+                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                            "actions": [
+                                                                                {
+                                                                                    "action": "ACTION_SET_PLAYLIST_VIDEO_ORDER",
+                                                                                    "playlistVideoOrder": 2
+                                                                                }
+                                                                            ],
+                                                                            "params": "CAFAAQ%3D%3D"
+                                                                        }
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "Date added (oldest)"
+                                                                        }
+                                                                    },
+                                                                    "trackingParams": "CD0Q48AHGAEiEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                                                                },
+                                                                {
+                                                                    "title": "Most popular",
+                                                                    "selected": false,
+                                                                    "serviceEndpoint": {
+                                                                        "clickTrackingParams": "CDwQ48AHGAIiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                        "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                                "sendPost": true,
+                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                            }
+                                                                        },
+                                                                        "playlistEditEndpoint": {
+                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                            "actions": [
+                                                                                {
+                                                                                    "action": "ACTION_SET_PLAYLIST_VIDEO_ORDER",
+                                                                                    "playlistVideoOrder": 3
+                                                                                }
+                                                                            ],
+                                                                            "params": "CAFAAQ%3D%3D"
+                                                                        }
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "Most popular"
+                                                                        }
+                                                                    },
+                                                                    "trackingParams": "CDwQ48AHGAIiEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                                                                },
+                                                                {
+                                                                    "title": "Date published (newest)",
+                                                                    "selected": false,
+                                                                    "serviceEndpoint": {
+                                                                        "clickTrackingParams": "CDsQ48AHGAMiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                        "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                                "sendPost": true,
+                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                            }
+                                                                        },
+                                                                        "playlistEditEndpoint": {
+                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                            "actions": [
+                                                                                {
+                                                                                    "action": "ACTION_SET_PLAYLIST_VIDEO_ORDER",
+                                                                                    "playlistVideoOrder": 4
+                                                                                }
+                                                                            ],
+                                                                            "params": "CAFAAQ%3D%3D"
+                                                                        }
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "Date published (newest)"
+                                                                        }
+                                                                    },
+                                                                    "trackingParams": "CDsQ48AHGAMiEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                                                                },
+                                                                {
+                                                                    "title": "Date published (oldest)",
+                                                                    "selected": false,
+                                                                    "serviceEndpoint": {
+                                                                        "clickTrackingParams": "CDoQ48AHGAQiEwjGqJTS5dj7AhWDJWAKHVj9BC4=",
+                                                                        "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                                "sendPost": true,
+                                                                                "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                                                                            }
+                                                                        },
+                                                                        "playlistEditEndpoint": {
+                                                                            "playlistId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0",
+                                                                            "actions": [
+                                                                                {
+                                                                                    "action": "ACTION_SET_PLAYLIST_VIDEO_ORDER",
+                                                                                    "playlistVideoOrder": 5
+                                                                                }
+                                                                            ],
+                                                                            "params": "CAFAAQ%3D%3D"
+                                                                        }
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "accessibilityData": {
+                                                                            "label": "Date published (oldest)"
+                                                                        }
+                                                                    },
+                                                                    "trackingParams": "CDoQ48AHGAQiEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                                                                }
+                                                            ],
+                                                            "title": "Sort",
+                                                            "icon": {
+                                                                "iconType": "SORT"
+                                                            },
+                                                            "accessibility": {
+                                                                "accessibilityData": {
+                                                                    "label": "Ordering"
+                                                                }
+                                                            },
+                                                            "trackingParams": "CDkQgdoEIhMIxqiU0uXY-wIVgyVgCh1Y_QQu"
+                                                        }
+                                                    },
+                                                    "targetId": "PLd-mXI9CJlSR1yN2xzin2KYqe-Dt7INo0"
+                                                }
+                                            }
+                                        ],
+                                        "trackingParams": "CDcQuy8YACITCMaolNLl2PsCFYMlYAodWP0ELg=="
+                                    }
+                                }
+                            ],
+                            "trackingParams": "CDYQui8iEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                        }
+                    },
+                    "trackingParams": "CDUQ8JMBGAciEwjGqJTS5dj7AhWDJWAKHVj9BC4="
+                }
+            }
+        ]
+    }
+}
