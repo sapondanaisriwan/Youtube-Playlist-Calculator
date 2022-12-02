@@ -1,38 +1,5 @@
 (function () {
   "use strict";
-  // https://stackoverflow.com/questions/18989345/how-do-i-reload-a-greasemonkey-script-when-ajax-changes-the-url-without-reloadin
-  // var fireOnHashChangesToo = true;
-  // var pageURLCheckTimer = setInterval(function () {
-  //   if (
-  //     this.lastPathStr !== location.pathname ||
-  //     this.lastQueryStr !== location.search ||
-  //     (fireOnHashChangesToo && this.lastHashStr !== location.hash)
-  //   ) {
-  //     this.lastPathStr = location.pathname;
-  //     this.lastQueryStr = location.search;
-  //     this.lastHashStr = location.hash;
-  //     gmMain();
-  //   }
-  // }, 111);
-
-  // function gmMain() {
-
-  //   if (content) {
-  //   }
-  //   console.log("[0]", contents[0]);
-  //   console.log("[0]children]", contents[0].children);
-  //   return contents[0].children;
-  // };
-
-  // var run = function () {
-  //   var videos = getVideos();
-  //   var spanElement = document.createElement("span");
-  //   var text = document.createTextNode(" • " + durationString);
-  //   spanElement.appendChild(text);
-  //   videos[1].appendChild(spanElement);
-  // };
-  // setTimeout(run, 1000)
-  // }
 
   waitForKeyElements(
     'div[class="metadata-stats style-scope ytd-playlist-byline-renderer"]',
@@ -84,14 +51,33 @@
     // var videos = contents[0].children;
 
     let spanElement = document.createElement("span");
-    spanElement.setAttribute('dir', 'auto')
-    spanElement.className = "style-scope yt-formatted-string"
+    spanElement.setAttribute("dir", "auto");
+    spanElement.className = "style-scope yt-formatted-string";
     let text = document.createTextNode(" • " + durationString);
     spanElement.appendChild(text);
-    contents[0].after(spanElement) // add an element to the last child
+    contents[0].after(spanElement); // add an element to the last child
     // contents[0]
     // let x = videos[1].children[2]
     // console.log(x);
     // videos[1].append(spanElement);
+  }
+
+  // https://stackoverflow.com/questions/18989345/how-do-i-reload-a-greasemonkey-script-when-ajax-changes-the-url-without-reloadin
+  var fireOnHashChangesToo = true;
+  var pageURLCheckTimer = setInterval(function () {
+    if (
+      this.lastPathStr !== location.pathname ||
+      this.lastQueryStr !== location.search ||
+      (fireOnHashChangesToo && this.lastHashStr !== location.hash)
+    ) {
+      this.lastPathStr = location.pathname;
+      this.lastQueryStr = location.search;
+      this.lastHashStr = location.hash;
+      gmMain();
+    }
+  }, 111);
+
+  function gmMain() {
+    console.log("loaded");
   }
 })();
