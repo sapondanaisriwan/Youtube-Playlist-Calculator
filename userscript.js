@@ -17,26 +17,6 @@
 (function () {
   "use strict";
 
-  var getPlaylistData = function () {
-    var getData = window.ytInitialData;
-    var playlistInfo =
-      getData.contents.twoColumnBrowseResultsRenderer.tabs[0].tabRenderer
-        .content.sectionListRenderer.contents[0].itemSectionRenderer
-        .contents[0]; //.playlistVideoListRenderer.contents[0] //.playlistVideoRenderer.lengthText.simpleText;
-    var getSeconds = playlistInfo.playlistVideoListRenderer.contents;
-
-    const secondsArray = [];
-    for (let index in getSeconds) {
-      secondsArray.push(getSeconds[index].playlistVideoRenderer.lengthSeconds); // add a new item to an array
-    }
-  };
-
-  const initialValue = 0;
-  var totalSec = secondsArray.reduce(function (x, y) {
-    return x + +y; // +y = convert to int
-    // return x + parseInt(y.playlistVideoRenderer.lengthSeconds);
-  }, initialValue);
-
   //   console.log(durationString);
   //   // ปัดเศษทิศนิยมขึ้นหรือลง
   //   // 2.49 => 2
@@ -44,47 +24,13 @@
   //   //   var minutes = Math.round(totalSec / 60);
   //   //   var calculated = calculateDuration(totalSec);
 
-  var minutes = Math.round(totalSec / 60);
-  // if there is at least 1 hour, display hours and minutes, otherwise display minutes and seconds.
-  var durationString =
-    // (condition) ? (if true run this) : (if false run this)
-    minutes >= 60 // if minutes is 60 or more
-      ? Math.floor(minutes / 60) + "h " + (minutes % 60) + "m" // calculate hours and minutes
-      : Math.floor(totalSec / 60) + "m " + (totalSec % 60) + "s"; // calculate minutes and seconds
-
-  console.log(typeof durationString, durationString);
-
-  //   waitForElement()
-
-  var getVideos = function () {
-    var contents = document.querySelectorAll(
-      'div[class="metadata-stats style-scope ytd-playlist-byline-renderer"]'
-    );
-    if (content) {
-    }
-    console.log("[0]", contents[0]);
-    console.log("[0]children]", contents[0].children);
-    return contents[0].children;
-  };
-
-  var run = function () {
-    var videos = getVideos();
-    // for (var i = 0; i < videos.length; i++) {
-    //   var video = videos[i];
-    //   console.log("for", video);
-    // }
-    var spanElement = document.createElement("span");
-    var text = document.createTextNode(" • " + durationString);
-    spanElement.appendChild(text);
-    // spanElement.style.display = "inline-block";
-    // spanElement.innerText = " • " + durationString
-    // spanElement.id = 'fuckyou'
-    // spanElement.className = "style-scope yt-formatted-string"
-    // console.log('yes')
-    videos[1].appendChild(spanElement);
-
-    // return video
-  };
+  //   var minutes = Math.round(totalSec / 60);
+  //   // if there is at least 1 hour, display hours and minutes, otherwise display minutes and seconds.
+  //   var durationString =
+  //     // (condition) ? (if true run this) : (if false run this)
+  //     minutes >= 60 // if minutes is 60 or more
+  //       ? Math.floor(minutes / 60) + "h " + (minutes % 60) + "m" // calculate hours and minutes
+  //       : Math.floor(totalSec / 60) + "m " + (totalSec % 60) + "s"; // calculate minutes and seconds
 
   var fireOnHashChangesToo = true;
   var pageURLCheckTimer = setInterval(function () {
@@ -108,6 +54,43 @@
     // DO WHATEVER YOU WANT HERE.
   }
 
+  var getPlaylistData = function () {
+    var getData = window.ytInitialData;
+    var playlistInfo =
+      getData.contents.twoColumnBrowseResultsRenderer.tabs[0].tabRenderer
+        .content.sectionListRenderer.contents[0].itemSectionRenderer
+        .contents[0]; //.playlistVideoListRenderer.contents[0] //.playlistVideoRenderer.lengthText.simpleText;
+    var getSeconds = playlistInfo.playlistVideoListRenderer.contents;
+
+    const secondsArray = [];
+    for (let index in getSeconds) {
+      secondsArray.push(getSeconds[index].playlistVideoRenderer.lengthSeconds); // add a new item to an array
+    }
+    return secondsArray;
+  };
+
+  var sumDuration = function () {
+    var lengthSeconds = getPlaylistData();
+    const initialValue = 0;
+    var totalSeconds = lengthSeconds.reduce(function (x, y) {
+      return x + +y; // +y = convert to int
+      // return x + parseInt(y.playlistVideoRenderer.lengthSeconds);
+    }, initialValue);
+    return totalSeconds;
+  };
+
+  var calculateDuration = function () {
+    totalSec = sumDuration();
+    var minutes = Math.round(totalSec / 60);
+    // if there is at least 1 hour, display hours and minutes, otherwise display minutes and seconds.
+    var durationString =
+      // (condition) ? (if true run this) : (if false run this)
+      minutes >= 60 // if minutes is 60 or more
+        ? Math.floor(minutes / 60) + "h " + (minutes % 60) + "m" // calculate hours and minutes
+        : Math.floor(totalSec / 60) + "m " + (totalSec % 60) + "s"; // calculate minutes and seconds
+    return durationString;
+  };
+
   //   setTimeout(run, 1000);
 
   //   var run = function () {
@@ -121,4 +104,39 @@
   //   setTimeout(run, 1000); // wait for the page load
   //   console.log(content);
   //   content[0].innerText += durationString;
+
+  console.log(typeof durationString, durationString);
+
+  //   waitForElement()
+
+  var getVideos = function () {
+    var contents = document.querySelectorAll(
+      'div[class="metadata-stats style-scope ytd-playlist-byline-renderer"]'
+    );
+    if (content) {
+    }
+    console.log("[0]", contents[0]);
+    console.log("[0]children]", contents[0].children);
+    return contents[0].children;
+  };
+
+  var run = function () {
+    var videos = getVideos();
+    var durationString = calculateDuration();
+    // for (var i = 0; i < videos.length; i++) {
+    //   var video = videos[i];
+    //   console.log("for", video);
+    // }
+    var spanElement = document.createElement("span");
+    var text = document.createTextNode(" • " + durationString);
+    spanElement.appendChild(text);
+    // spanElement.style.display = "inline-block";
+    // spanElement.innerText = " • " + durationString
+    // spanElement.id = 'fuckyou'
+    // spanElement.className = "style-scope yt-formatted-string"
+    // console.log('yes')
+    videos[1].appendChild(spanElement);
+
+    // return video
+  };
 })();
